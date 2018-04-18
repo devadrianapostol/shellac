@@ -65,6 +65,12 @@
       "title": "Download audio from YouTube",
       "command": "scripts/youtube_audio_dl \"$SHELLAC_INFO_LINKURL\" \"$SHELLAC_TAB_TITLE\"",
       "contexts": ["link"]
+    },
+    {
+      "name": "youtube_video_dl",
+      "title": "Download video from YouTube",
+      "command": "scripts/youtube_video_dl \"$SHELLAC_INFO_LINKURL\" \"$SHELLAC_TAB_TITLE\" \"$SHELLAC_INFO_SRCURL\" \"$SHELLAC_TAB_URL\" ",
+      "contexts": ["link","page", "selection" ]
     }
   ]
 }
