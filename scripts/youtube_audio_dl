@@ -1,0 +1,11 @@
+#!/bin/sh
+
+link="$1"
+title="$2"
+
+cd ~/Music 
+/usr/local/bin/youtube-dl -x --audio-format mp3 $link > youtube-dl.log && rm  youtube-dl.log
+
+
+
+
