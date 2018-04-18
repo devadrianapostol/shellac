@@ -1,3 +1,4 @@
 #!/bin/sh
-cd ../..
-exec bin/webapp.py 8783
+
+#cd ../..
+exec $(pwd)/bin/webapp.py 8783
