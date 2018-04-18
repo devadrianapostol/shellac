@@ -2,9 +2,7 @@
 
 link="$1"
 title="$2"
-src="$3"
-taburl="$4"
 
 cd ~/Videos 
-#/usr/local/bin/youtube-dl $link > youtube-dl.log
-echo "$link | $title | $src | $taburl \n" >> youtube-dl.log
+/usr/local/bin/youtube-dl $link > youtube-dl.log
+#echo "$link \n" >> youtube-dl.log
